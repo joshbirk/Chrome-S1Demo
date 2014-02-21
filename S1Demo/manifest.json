@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "S1 Demo",
+  "description": "Opens a new S1 demo based on current URL",
+  "version": "1.0",
+  "icons": { "128": "iphone.png" },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "*://*.salesforce.com/",
+    "*://*.force.com/"
+  ],
+    "page_action": {
+      "default_name": "S1 Demo",
+      "default_icon": "iphone.png"
+  },
+  "content_security_policy": "script-src 'unsafe-eval' 'self' https://*.salesforce.com; object-src 'self'"
+}
