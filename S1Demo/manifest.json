@@ -8,8 +8,6 @@
       "scripts": ["background.js"]
   },
   "permissions": [
-    "webRequest",
-    "webRequestBlocking",
     "tabs",
     "*://*.salesforce.com/",
     "*://*.force.com/"
@@ -17,6 +15,5 @@
     "page_action": {
       "default_name": "S1 Demo",
       "default_icon": "iphone.png"
-  },
-  "content_security_policy": "script-src 'unsafe-eval' 'self' https://*.salesforce.com; object-src 'self'"
+  }
 }
