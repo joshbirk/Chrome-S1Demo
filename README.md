@@ -4,7 +4,9 @@ Chrome-S1Demo
 Extension for Chrome that opens Salesforce1 into an iPhone shaped window, based on the current instance.
 
 *To Install*
-Just download the CRX file and double click that.  Chrome should install after.  If that fails due to security restrictions, you can load the S1Demo directory as an unpacked extension.  
+Either install as an unpacked extension from the S1Demo directory, or install the latest version on Chrome Web Store:
+
+https://chrome.google.com/webstore/detail/salesforce1-demo/kalbgfbifcaigjnkgagbeimcflnaijmc
 
 
 *To Use*
